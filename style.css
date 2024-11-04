@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(#000, #204);
+  <!---background-image: linear-gradient(#000, #204);--->
   min-height: 100vh;
   margin: 0;
   overflow: hidden;
