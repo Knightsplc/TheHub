@@ -1,4 +1,4 @@
-const poppyCount = 100,
+const poppyCount = 106,
       winH = window.innerHeight,
       winW = window.innerWidth;
 
