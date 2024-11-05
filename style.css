@@ -1,9 +1,7 @@
-#over { font-size:5em; position:absolute; top:20%; left:43%; z-index:2 }
+#over { font-size:5em; position:absolute; top:10%; left:43%; z-index:2 }
 
 html {
-  background-color:#00263f;
-  background-image:radial-gradient(#09202e, #00263f);
-  height:100%;
+  height:200px;
   overflow:hidden;
 }
 
