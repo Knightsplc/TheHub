@@ -1,7 +1,7 @@
 #over { font-size:5em; position:absolute; top:10%; left:43%; z-index:2 }
 
 html {
-  height:200px;
+  height:100%;
   overflow:hidden;
 }
 
