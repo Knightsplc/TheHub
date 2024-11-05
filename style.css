@@ -1,63 +1,65 @@
+#over { font-size:5em; position:absolute; top:20%; left:43%; z-index:2 }
+
 html {
-  background-color: #cfc;
-  background-image: radial-gradient(#cfc, #600);
-  height: 100%;
-  overflow: hidden;
+  background-color:#00263f;
+  background-image:radial-gradient(#09202e, #00263f);
+  height:100%;
+  overflow:hidden;
 }
 
 body {
-  margin: 0;
+  margin:0;
 }
 
 .poppy {
-  background-color: #c00;
-  background-image: radial-gradient(#900, #c00);
-  border-radius: 60% 40% 75% 25%/60% 25% 75% 40%;
-  box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.5);
-  height: 20vmin;
-  position: absolute;
-  transition: opacity 200ms linear;
-  width: 20vmin;
-}
-.poppy:before {
-  background-color: #c00;
-  background-image: radial-gradient(#900, #c00);
-  border-radius: 75% 25% 60% 40%/75% 40% 60% 25%;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-  bottom: -40%;
-  content: "";
-  height: 110%;
-  position: absolute;
-  right: -40%;
-  width: 110%;
-}
-.poppy:after {
-  background-color: #222;
-  background-image: radial-gradient(#000, #222);
-  border-radius: 50%;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  box-sizing: border-box;
-  color: #333;
-  content: attr(data-year);
-  font-family: serif;
-  font-size: 2.5vmin;
-  height: 45%;
-  left: 45%;
-  line-height: 200%;
-  padding: 0.75em;
-  position: absolute;
-  text-align: center;
-  top: 45%;
-  transform: rotate(45deg);
-  width: 45%;
+  background-color:#c00;
+  background-image:radial-gradient(#900, #c00);
+  border-radius:60% 40% 75% 25% / 60% 25% 75% 40%  ;
+  box-shadow:-1px -1px 5px rgba(0,0,0,.5);
+  height:20vmin;
+  position:absolute;
+  transition:opacity 200ms linear;
+  width:20vmin;  
+  &:before {
+    background-color:#c00;
+    background-image:radial-gradient(#900, #c00);
+    border-radius:75% 25% 60% 40% / 75% 40% 60% 25%;
+    box-shadow:1px 1px 5px rgba(0,0,0,.5);
+    bottom:-40%;
+    content:"";
+    height:110%;
+    position:absolute;
+    right:-40%;
+    width:110%;
+  }
+  &:after {
+    background-color:#222;
+    background-image:radial-gradient(#000, #222);
+    border-radius:50%;
+    box-shadow:0 0 5px rgba(0,0,0,.5);
+    box-sizing:border-box;
+    color:#333;
+    content:attr(data-year);
+    font-family:serif;
+    font-size:2.5vmin;
+    height:45%;
+    left:45%;
+    line-height:200%;
+    padding:.75em;
+    position:absolute;
+    text-align:center;
+    top:45%;
+    transform:rotate(45deg);
+    width:45%;
+  }
 }
 
 a {
-  bottom: 1em;
-  color: #fff;
-  font-size: small;
-  position: absolute;
-  right: 1em;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
-  z-index: 1;
+  bottom:1em;
+  color:#fff;
+  font-size:small;
+  position:absolute;
+  right:1em;
+  text-shadow:1px 1px rgba(0,0,0,.5);
+  z-index:1;
 }
